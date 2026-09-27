@@ -187,18 +187,24 @@
   "providers": {
     "catalogTitle": "Провайдеры",
     "viewLabel": "Представление провайдеров",
-    "views": { "manage": "Мои подключения", "discover": "Найти приложения" },
+    "views": { "manage": "Мои подключения", "discover": "Все приложения" },
     "discovery": {
       "browseByTask": "Поиск по задаче",
       "explore": "Смотреть приложения",
       "scenarios": {
         "ai": { "title": "ИИ и агенты", "description": "Модели, агенты, поиск и генерация медиа" },
+        "investment": {
+          "title": "Инвестиции и торговля",
+          "description": "Акции, криптоактивы, рыночные данные, портфели и сделки"
+        },
         "crossBorderEcommerce": {
           "title": "Операции e-commerce",
           "description": "Витрины, заказы, исполнение и рыночные данные"
         },
-        "communication": { "title": "Командная работа", "description": "Сообщения, почта, встречи и уведомления" },
-        "docs": { "title": "Документы и знания", "description": "Документы, базы знаний, диски и таблицы" },
+        "communication": {
+          "title": "Совместная работа и знания",
+          "description": "Сообщения, почта, встречи, документы, диски и базы знаний"
+        },
         "productivity": {
           "title": "Проекты и продуктивность",
           "description": "Проекты, задачи, расписания и автоматизация"
@@ -214,6 +220,7 @@
     "filters": {
       "all": "Все",
       "connected": "Подключено",
+      "noSetup": "Без настройки",
       "notConnected": "Не подключено",
       "oauthNeedsConfig": "OAuth требует настройки"
     },
@@ -617,7 +624,7 @@
     }
   },
   "hostedPromo": {
-    "title": "Добро пожаловать в Open Connect",
+    "title": "Добро пожаловать в Open Connector",
     "headline": "Один ключ для творчества с ИИ",
     "description": "Создавайте изображения и видео с Kling, Seedance, MiniMax и другими моделями.",
     "offer": "Скидка до 30% на отдельные модели",
